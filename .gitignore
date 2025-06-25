@@ -1,0 +1,193 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========================================
+# Virtual Environments
+# ========================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ========================================
+# Project Specific
+# ========================================
+# Model Weights
+weights/
+*.pth
+*.pt
+*.onnx
+*.pb
+*.h5
+*.safetensors
+
+# Benchmark Results
+benchmark_results*.json
+benchmark_results*.png
+results/
+outputs/
+
+# ONNX Models
+onnx_models/
+
+# Cloned Model Repositories
+tinysam/
+slimsam/
+expedit-sam/
+mobilesam-tmp/
+lightning_sam/
+mobile_sam/
+
+# ========================================
+# Data and Media Files
+# ========================================
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Keep sample image for testing
+!sample_image.jpg
+
+# ========================================
+# IDE and Editors
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ========================================
+# Jupyter Notebooks
+# ========================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================================
+# Testing and Coverage
+# ========================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ========================================
+# Type Checking
+# ========================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ========================================
+# Documentation
+# ========================================
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ========================================
+# Logs and Temporary Files
+# ========================================
+*.log
+logs/
+*.out
+*.err
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ========================================
+# Cache
+# ========================================
+.cache/
+*.cache
+
+# ========================================
+# OS Generated Files
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================================
+# Backup and Archive Files
+# ========================================
+*.bak
+*.backup
+*.old
+*.orig
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ========================================
+# Miscellaneous
+# ========================================
+# CSV files (usually results)
+*.csv
+
+# Cython debug files
+cython_debug/
+
+# Claude artifacts
+.claude/
+CLAUDE.md
+
+# Test images (except sample)
+test*.jpg
+test*.png
